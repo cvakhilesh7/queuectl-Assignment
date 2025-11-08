@@ -28,15 +28,15 @@ This project implements all core requirements from the \*\*Flam Company Backend 
 
 
 
-\## ⚙️ Setup Instructions
+⚙️ Setup Instructions
 
 
 
-\### 1️⃣ Install dependencies  
+1️⃣ Install dependencies  
 
 Run this command once to install all required Node.js packages:
 
-```bash
+
 
 npm install
 
@@ -104,11 +104,11 @@ State	           Description
 
 pending	        Waiting for a worker to pick it up
 
-processing	Currently running
+processing	    Currently running
 
-completed	Successfully executed
+completed	      executed
 
-dead	        Permanently failed after retries (moved to DLQ)
+dead	           Permanently failed after retries (moved to DLQ)
 
 
 
@@ -261,74 +261,3 @@ Strong documentation and testing
 
 
 © 2025 — QueueCTL by Chakka Venkata Akhilesh
-
-
-
-
-
----
-
-
-
-\### ✅ Now What You Should Do:
-
-
-
-1️⃣ Open PowerShell:
-
-```powershell
-
-cd "C:\\Users\\cvakh\\Desktop\\SE-Project-main (1)\\queuectl"
-
-
-
-
-
-2️⃣ Create and open the file:
-
-
-
-notepad README.md
-
-
-
-
-
-3️⃣ Paste everything above (the entire markdown block).
-
-Save and close.
-
-
-
-4️⃣ Verify the file:
-
-
-
-Get-Content README.md -TotalCount 10
-
-
-
-
-
-5️⃣ Commit \& push:
-
-
-
-git add README.md
-
-git commit -m "Added final README for Flam submission"
-
-git push
-
-
-
-
-
-6️⃣ Done ✅
-
-Now your project is fully ready for submission — all requirements followed exactly.
-
-
-
-
-
